@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Story</title>
+	<link rel="stylesheet" type="text/css" href="story.css">
+</head>
+<body>
+<div class="logo">
+	<img src="14.jpg">
+	<p>FORM-A-STORY</p>
+</div>
+<div class="boot">
+	<h1>
+		Complete the Form - Complete the Story!
+	</h1>
+	<form action="story.html">
+	<div class="form">
+		<h3>Animal:</h3>
+		<input type="text" name="animal" id="animal" placeholder="Tiger">
+	</div>
+		<div class="form">
+		<h3>Another Animal:</h3>
+		<input type="text" name="animal2" id="animal2" placeholder="lion">
+	</div>
+	<div class="form">
+		<h3>One more Animal:</h3>
+		<input type="text" name="animal3" id="animal3" placeholder="dog">
+	</div>
+	<div class="form">
+		<h3>Adjective(past tense):</h3>
+		<input type="text" name="adjective" id="adjective" placeholder="alarmed">
+	</div>
+	<div class="form">
+		<h3>Verb(ends in -ing):</h3>
+		<input type="text" name="verb" id="verb" placeholder="runing">
+	</div>
+	<div class="form">
+		<h3>Number:</h3>
+		<input type="text" name="number" id="number" placeholder="2">
+	</div>
+	<div class="form">
+		<h3>Yes or No:</h3>
+		<label>Yes</label>
+		<input type="radio" name="no" id="yes" style="width: 20px;"  value="Yes">
+		<label>No</label>
+		<input type="radio" name="no" id="no"  style="width: 20px;" value="No">
+	</div>
+	<div class="form">
+		<h3>Relative speed(ends in -er):</h3>
+		<select name="speed" id="speed" style="width: 50px; height: 25px;">
+  <option value="quicker">Quicker</option>
+  <option value="km">...</option>
+  
+   </select>
+	</div>
+	<div class="form">
+		<h3>Motivational Quote:</h3>
+		<input type="text" name="quote" id="quote" placeholder="quotes">
+	</div>
+	<div class="form">
+		<h3>Meaningful Message:</h3>
+		<textarea id="message" name="message" rows="5" cols="30" placeholder="This is meaning"></textarea>
+	</div><br>
+	<button  style="height: 30px; border-radius: 10px;border:none;" onclick="fun()">Form a story</button>
+
+</form>
+</div>
+
+
+<div id="ori">
+	
+</div>
+
+<script type="text/javascript" src="story.js"></script>
+</body>
+</html>

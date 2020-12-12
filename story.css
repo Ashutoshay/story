@@ -1,0 +1,54 @@
+body{
+	background-color: #e68a00;
+}
+.logo{
+	width: 70%;
+	height: 100px;
+	background-color: #fff0d0;
+	margin-left: 110px;
+	border-radius: 15px;
+	text-align: center;
+	position: relative;
+	padding-bottom: 20px;
+
+}
+.logo img{
+	height: 50px;
+	width: 50px;
+	margin-top: 10px;
+	position: relative;
+	border-radius: 20px;
+}
+.lodo h2{
+	position: relative;
+
+}
+.boot{
+	width: 70%;
+	height: auto;
+	background-color: #00B1D2FF;
+	margin-left: 110px;
+	text-align: center;
+	padding-bottom: 50px;
+	border-radius: 15px;
+}
+.boot h1{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border-bottom: 1px solid black;
+}
+.form{
+ font-size: 20px;
+ color: #fff;
+}
+.form input{
+	width: 170px;
+	height: 25px;
+	border-radius: 15px;
+	border:none;
+	background-color: #fff;
+	text-align: center;
+}
+.boot b{
+	color: black;
+}
